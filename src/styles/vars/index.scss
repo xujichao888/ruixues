@@ -1,0 +1,9 @@
+@import './element-variables.scss';
+@import './customize-variables.scss';
+
+:root {
+  --animate-duration: 0.5s;
+  --menu-bg: #{$menu-bg};
+  --menu-color: #{$menu-color};
+  --menu-color--active: #{$menu-color--active};
+}
